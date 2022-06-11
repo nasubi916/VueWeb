@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./logo.svg" />
+    <img src="./images/logo.svg" />
     <h1>Hello <a href='https://github.com/vuejs/vite' target='__blank'>Vite</a> and <a href='https://github.com/vueuse/vueuse' target='__blank'>VueUse</a>!</h1>
 
     <h3>Mouse: {{x}} x {{y}}</h3>
@@ -9,6 +9,7 @@
       <a @click='inc()' style='margin-right:10px'>+</a>
       <a @click='dec()'>-</a>
     </h3>
+    <nasubi/>
 
     <br><br>
     <p><a href='https://github.com/vueuse/vueuse-vite-starter' target='__blank'>Source</a></p>
@@ -18,6 +19,7 @@
 
 <script setup lang="ts">
 import { useMouse, useCounter } from '@vueuse/core'
+import nasubi from './components/nasubi.vue'
 
 const { x, y } = useMouse()
 const { count, inc, dec } = useCounter()
