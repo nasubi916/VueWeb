@@ -1,4 +1,4 @@
-<h1 align='center'>⚡️ VueUse Vite Starter</h1>
+<h1 align='center'>⚡️ VueUse Vite Starter & pinia naive UI</h1>
 
 <p align='center'>
 <img src='./src/logo.svg' height='120'/>
