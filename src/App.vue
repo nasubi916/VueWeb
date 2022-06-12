@@ -26,12 +26,8 @@ const { count, inc, dec } = useCounter()
 </script>
 
 <style scoped>
-html, body, h1, h2, h3, p {
-  font-family: 'Noto Serif', serif;
-  user-select: none;
-}
-
 #app {
+  font-family: 'UDEV Gothic', Courier, monospace;
   text-align: center;
   color: rgba(0,0,0,0.4);
 }

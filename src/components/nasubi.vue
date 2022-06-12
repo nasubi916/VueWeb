@@ -11,6 +11,8 @@ store.decrement(2);
 <template>
     <div>
         <n-button>naive-ui</n-button><br>
+        <n-button type="primary" size="large" @click="store.increment(1)">Increment</n-button>
+        
         <h1>Count is {{store.count }}</h1>
         <h2>DoubleCount is {{ store.doubleCount }}</h2>
         <button @click="store.increment(1)">Increment</button>
