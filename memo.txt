@@ -1,0 +1,4 @@
+naiveUIのvfontを無視して進めた
+googleのfontを入れてみたがnaiveの相性がよくなさそう。
+storeが最初に読み込まれてその後に親component、子component、最後にmain.tsだった。
+
