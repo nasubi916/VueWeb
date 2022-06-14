@@ -10,6 +10,7 @@ store.decrement(2);
 </script>
 
 <template>
+        <h2>this page is nasubi</h2>
         <n-button>naive-ui</n-button><br>
         <n-button type="primary" size="large" @click="store.increment(1)">Increment</n-button>
         

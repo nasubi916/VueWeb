@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { NAvatar, NBadge,NLayout } from 'naive-ui'
-
-const isBorder=true;
+import { NAvatar, NBadge,NLayout,NLayoutHeader } from 'naive-ui'
 
 </script>
 
