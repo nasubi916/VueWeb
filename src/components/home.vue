@@ -7,8 +7,9 @@ const { count, inc, dec } = useCounter()
 </script>
 
 <template>
+<div>
     <h2>this page is home</h2>
-    <img src="../images/logo.svg" />
+    <img class="img" src="../assets/img/logo.svg" />
     <h1>
         Hello <a href='https://github.com/vuejs/vite' target='__blank'>Vite</a> and
         <a href='https://github.com/vueuse/vueuse' target='__blank'>VueUse</a> and
@@ -21,7 +22,5 @@ const { count, inc, dec } = useCounter()
         <a @click='inc()' style='margin-right:10px'>+</a>
         <a @click='dec()'>-</a>
     </h3>
+</div>
 </template>
-
-<style>
-</style>

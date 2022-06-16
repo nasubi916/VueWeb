@@ -4,13 +4,15 @@ import { NAvatar, NBadge, NLayout, NLayoutHeader } from 'naive-ui'
 </script>
 
 <template>
-    <NLayout class="red">
+<div>
+    <NLayout>
         <NLayoutHeader class="red" bordered>雀魂したい<br><br>
-            <NBadge value="連絡なんて来てねーよ">
-                <n-avatar round size="large" src='../images/nasubi.png' />
+            <NBadge value="" name="side">
+                <n-avatar round size="large" img='@/assets/nasubi.png' />
             </NBadge>
         </NLayoutHeader>
     </NLayout>
+</div>
 </template>
 
 <style>

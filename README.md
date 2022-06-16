@@ -1,7 +1,7 @@
 <h1 align='center'>⚡️ VueUse Vite Starter & pinia naive </h1>
 
 <p align='center'>
-<img src='./src/logo.svg' height='120'/>
+<img src='./src/assets/logo.svg' height='120'/>
 </p>
 
 
