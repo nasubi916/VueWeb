@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import home from "../components/home.vue";
 import nasubi from "../components/nasubi.vue";
+import niru from "../components/niru.vue";
+
 
 const router = createRouter({
 	history: createWebHistory(),
@@ -23,6 +25,15 @@ const router = createRouter({
 				leaveClass:"animate__animated animate__fadeOutLeft",
 			}
 		},
+		{
+			path: "niru",
+			name: "niru",
+			component: niru,
+			meta: {
+				enterClass:"animate__animated animate__fadeInLeft",
+				leaveClass:"animate__animated animate__fadeOutRight",
+			}
+		}
 	],
 })
 

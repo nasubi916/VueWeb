@@ -3,7 +3,8 @@
 		<HeaderVue />
 		<h2>app</h2>
 		<router-link to="/">go to home</router-link> |
-		<router-link to="/nasubi">go to nasubi</router-link><br>
+		<router-link to="/nasubi">go to nasubi</router-link> |
+		<router-link to="niru">go to niru</router-link><br>
 		<router-view v-slot="{ Component, route }">
 			<transition
 			:enter-active-class='route.meta.enterClass'
