@@ -26,7 +26,7 @@ const router = createRouter({
 			}
 		},
 		{
-			path: "niru",
+			path: "/niru",
 			name: "niru",
 			component: niru,
 			meta: {

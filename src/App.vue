@@ -13,7 +13,7 @@
 				<component :is="Component" />
 			</transition>
 		</router-view>
-		aaa
+		last
 	</div>
 </template>
 
