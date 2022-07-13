@@ -6,7 +6,7 @@ import { NAvatar, NBadge, NLayout, NLayoutHeader } from 'naive-ui'
 <template>
 <div>
     <NLayout>
-        <NLayoutHeader class="red" bordered>雀魂したい<br><br>
+        <NLayoutHeader class="red" bordered>お金が欲しい<br><br>
             <NBadge value="" name="side">
                 <n-avatar round size="large" img='@/assets/nasubi.png' />
             </NBadge>
